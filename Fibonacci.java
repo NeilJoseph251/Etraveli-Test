@@ -15,21 +15,12 @@ public class Fibonacci {
 		}
 	}
 	
-//	public static int fib(int n)
-//	{
-//		if(n>0)
-//			System.out.print(fib(n-1)+fib(n-2)+" ");
-//		
-//		return n;
-//	}
-	
 	public static void main(String[] args) 
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter number: ");
 		int n = sc.nextInt();
 		fib(n);
-		//System.out.print(fib(n));
 		
 	}
 
